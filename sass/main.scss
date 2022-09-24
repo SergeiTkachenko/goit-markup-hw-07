@@ -1,5 +1,6 @@
 @import './utils/vars';
 @import './utils/visually-hidden';
+@import './utils/mixins';
 
 @import './base/base';
 @import './base/container';
@@ -21,3 +22,5 @@
 @import './components/benefits-card';
 @import './components/team-card';
 @import './components/portfolio-card';
+@import './components/modal';
+@import './components/subscription-form';

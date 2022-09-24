@@ -1,14 +1,11 @@
 .btn {
-  display: flex;
-
-  font-family: 'Roboto';
-  font-style: normal;
+  @include flex-center();
+  // font-family: 'Roboto';
+  // font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: calc(30 / 16);
 
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
 
   color: var(--light-txt-cl);

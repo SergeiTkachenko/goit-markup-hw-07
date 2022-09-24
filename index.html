@@ -723,95 +723,93 @@
     <!-------------------- modal ---------------------->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button class="modal-btn" type="button" data-modal-close>
+        <button class="modal__btn" type="button" data-modal-close>
           &#10006;
         </button>
         <form class="subscription-form">
-          <strong class="subscription-form-title"
+          <strong class="subscription-form__title"
             >Залиште свої дані, ми вам передзвонимо</strong
           >
-          <div class="subscription-form-group" role="group">
-            <label class="subscription-form-field">
-              <span class="subscription-form-label">Ім'я</span>
+          <div class="subscription-form__group" role="group">
+            <label class="subscription-form__field">
+              <span class="subscription-form__label">Ім'я</span>
               <input
-                class="subscription-form-input"
+                class="subscription-form__input"
                 type="text"
                 name="person-name"
                 required
                 minlength="3"
                 placeholder="&nbsp;"
               />
-              <svg class="subscription-form-icon" width="18" height="18">
+              <svg class="subscription-form__icon" width="18" height="18">
                 <use href="./img/img-vector/symbol-defs.svg#icon-person"></use>
               </svg>
             </label>
 
-            <label class="subscription-form-field">
-              <span class="subscription-form-label">Телефон</span>
+            <label class="subscription-form__field">
+              <span class="subscription-form__label">Телефон</span>
               <input
-                class="subscription-form-input"
+                class="subscription-form__input"
                 type="text"
                 name="phone"
                 required
                 minlength="12"
                 maxlength="12"
               />
-              <svg class="subscription-form-icon" width="18" height="18">
+              <svg class="subscription-form__icon" width="18" height="18">
                 <use href="./img/img-vector/symbol-defs.svg#icon-phone2"></use>
               </svg>
             </label>
 
-            <label class="subscription-form-field">
-              <span class="subscription-form-label">Пошта</span>
+            <label class="subscription-form__field">
+              <span class="subscription-form__label">Пошта</span>
               <input
-                class="subscription-form-input"
+                class="subscription-form__input"
                 type="email"
                 name="email"
                 required
               />
-              <svg class="subscription-form-icon" width="18" height="18">
+              <svg class="subscription-form__icon" width="18" height="18">
                 <use href="./img/img-vector/symbol-defs.svg#icon-email"></use>
               </svg>
             </label>
 
-            <label class="subscription-form-field">
-              <span class="subscription-form-heading">Коментар</span>
+            <label class="subscription-form__field">
+              <span class="subscription-form__heading">Коментар</span>
               <textarea
-                class="subscription-form-message"
+                class="subscription-form__message"
                 name="comment"
                 placeholder="Введіть текст"
               ></textarea>
             </label>
           </div>
 
-          <label class="subscription-form-agreement">
+          <label class="subscription-form__agreement">
             <input
-              class="subscription-form-checkbox visually-hidden"
+              class="subscription-form__checkbox visually-hidden"
               type="checkbox"
               name="checkbox"
               id=""
             />
-            <svg class="subscription-form-icons" width="20" height="20">
+            <svg class="subscription-form__mark" width="20" height="20">
               <use
-                class="icon-checked"
+                class="subscription-form__icon-checked"
                 href="./img/img-vector/symbol-defs.svg#icon-check"
               ></use>
               <use
-                class="icon-unchecked"
+                class="subscription-form__icon-unchecked"
                 href="./img/img-vector/symbol-defs.svg#icon-frame"
               ></use>
             </svg>
-            <span class="subscription-form-desc">
+            <span class="subscription-form__desc">
               Погоджуюся з розсилкою та приймаю
-              <a class="subscription-form-link" href="" target="_blank"
+              <a class="subscription-form__link" href="" target="_blank"
                 >Умови договору</a
               >
             </span>
           </label>
 
-          <button class="subscription-form-btn btn-anim" type="submit"
-            >Відправити</button
-          >
+          <button class="btn" type="submit">Відправити</button>
         </form>
       </div>
     </div>

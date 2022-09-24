@@ -10,15 +10,13 @@
 }
 
 .clients__list {
-  display: flex;
-  justify-content: center;
+  @include flex-center();
+
   gap: 30px;
 }
 
 .clients__link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include flex-center();
 
   width: 170px;
   height: 92px;
