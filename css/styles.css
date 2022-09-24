@@ -1,8 +1,8 @@
-:root {
-  /* fonts */
+/* :root {
+  
   --main-font: 'Roboto', sans-serif;
   --secondary-font: 'Raleway', sans-serif;
-  /* text color */
+
   --main-txt-cl: #757575;
   --light-txt-cl: #ffffff;
   --accent-txt-cl: #2196f3;
@@ -11,7 +11,7 @@
   --dark-txt-cl: #000;
 
   --teem-socials-icon-cl: #afb1b8;
-  /* Background colors */
+  
   --hero-bg-cl: #c4c4c4;
   --hero-bg-cl-overlay: rgba(47, 48, 58, 0.4);
   --team-bg-cl: #f5f4fa;
@@ -21,14 +21,14 @@
   --portfolio-overay: rgba(33, 150, 243, 0.9);
   --what-we-do-bg: rgba(47, 48, 58, 0.8);
 
-  /* bnt */
+  
   --portfolio-btn-cl: #f5f4fa;
   --portfolio-btn-hover-cl: #2196f3;
   --header-border: #ececec;
   --portfolio-card-border: #eee;
-}
+} */
 
-body {
+/* body {
   font-family: var(--main-font);
   font-size: 14px;
   letter-spacing: 0.03em;
@@ -72,9 +72,9 @@ button {
   cursor: pointer;
   border: none;
   border-radius: 4px;
-}
+} */
 
-.btn-anim {
+/* .btn-anim {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -88,9 +88,9 @@ button {
 .btn-anim:active {
   transform: translateY(-1px);
   box-shadow: 0px 5px 5px rgba(29, 72, 190, 0.15);
-}
+} */
 
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -102,27 +102,27 @@ button {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 
-.container {
+/* .container {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-}
+} */
 
-.section {
+/* .section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
 .section:nth-child(2) {
   padding-bottom: 0px;
-}
+} */
 
 /* початок хедер */
-.header {
+/* .header {
   border-bottom: 1px solid var(--header-border);
 }
 
@@ -150,7 +150,6 @@ button {
 .header-nav {
   display: flex;
   align-items: center;
-  /* justify-content: left; */
 }
 
 .header-nav-pages {
@@ -250,12 +249,12 @@ button {
   background-color: var(--accent-txt-cl);
 
   border-radius: 2px;
-}
+} */
 /* кінець хедер */
 
 /* початок футер */
 
-.footer {
+/* .footer {
   background-color: var(--footer-bg-cl);
   padding-top: 60px;
   padding-bottom: 60px;
@@ -437,13 +436,13 @@ button {
   gap: 10px;
 }
 .footer-email-icon {
-}
+} */
 
 /* кінець футер */
 
 /* початок герой */
 
-.hero {
+/* .hero {
   background-image: linear-gradient(
       to right,
       rgba(47, 48, 58, 0.4),
@@ -464,7 +463,7 @@ button {
   max-width: 1600px;
   max-height: 600px;
 
-  /* position: relative; */
+
 }
 
 .hero-title {
@@ -481,35 +480,11 @@ button {
   text-transform: uppercase;
 
   color: var(--light-txt-cl);
-}
-
-.hero-btn {
-  font-family: 'Roboto';
-  font-weight: 700;
-  font-size: 16px;
-  line-height: calc(30 / 16);
-
-  /* display: flex; */
-  align-items: center;
-  letter-spacing: 0.06em;
-
-  color: var(--light-txt-cl);
-  background-color: var(--accent-txt-cl);
-
-  min-width: 216px;
-
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px 32px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
+} */
 
 /* переваги початок */
 
-.benefits {
-}
-
-.benefits-card {
+/* .benefits-card {
   margin-right: 30px;
 
   width: 270px;
@@ -549,16 +524,13 @@ button {
 
 .benefits-list-content {
   line-height: calc(24 / 14);
-}
+} */
 
 /* переваги кінець */
 
 /* чим ми займаємося початок */
 
-.what-we-do {
-}
-
-.what-we-do-title {
+/* .what-we-do-title {
   margin-bottom: 50px;
 
   font-weight: 700;
@@ -604,13 +576,13 @@ button {
 
   color: var(--light-txt-cl);
   background: var(--what-we-do-bg);
-}
+} */
 
 /* чим ми займаємося кінць */
 
 /* наша команда початок */
 
-.team {
+/* .team {
   background-color: var(--team-bg-cl);
 }
 
@@ -701,12 +673,12 @@ button {
 
 .team-socials-icon {
   fill: currentColor;
-}
+} */
 
 /* наша команда кінець */
 
 /* постійні клієнти початок */
-
+/* 
 .clients-list {
   display: flex;
   justify-content: center;
@@ -753,7 +725,7 @@ button {
 
 .clients-icon {
   fill: currentColor;
-}
+} */
 /* ---------------постійні клієнти кінець----------- */
 
 /* ----------------------modal start-------------------- */
@@ -1026,7 +998,7 @@ button {
 
 /* -------------------PORTFOLIO START------------------- */
 
-.portfolio-filter {
+/* .portfolio-filter {
   margin-bottom: 50px;
 
   list-style-type: none;
@@ -1072,9 +1044,9 @@ button {
   background-color: var(--portfolio-btn-hover-cl);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-}
+} */
 
-.portfolio-list {
+/* .portfolio-list {
   margin-right: -30px;
   margin-bottom: -30px;
 
@@ -1172,6 +1144,6 @@ button {
 
 .portfolio-img {
   display: inline-block;
-}
+} */
 
 /* PORTFOLIO END */
